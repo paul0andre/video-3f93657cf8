@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Black Friday</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Jost:wght@300;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root { --marrom:#1D130B; --creme:#F6EEE2; --ouro:#D9B877; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--marrom); color:var(--creme); font-family:"Jost",sans-serif; font-weight:300; }
+  main { max-width:460px; margin:0 auto; padding:28px 16px 40px; text-align:center; }
+  .fino { font-family:"Cormorant Garamond",serif; font-style:italic; font-size:26px; margin:0; }
+  h1 { font-family:"Playfair Display",serif; font-weight:600; font-size:44px; margin:2px 0 6px;
+       background:linear-gradient(180deg,#F8EBCB,#E6CB8E 48%,#B08A45); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .fio { width:60px; height:2px; background:var(--ouro); margin:0 auto 22px; }
+  .etapa { font-size:13px; letter-spacing:3px; color:var(--ouro); font-weight:500; margin:44px 0 6px; }
+  h2.sub { font-family:"Playfair Display",serif; font-weight:600; font-size:30px; color:#E6CB8E; margin:0 0 16px; }
+  video { width:100%; aspect-ratio:9/16; border-radius:14px; background:#000; display:block; box-shadow:0 10px 40px rgba(0,0,0,.45); }
+  .btn { display:block; margin:22px 0 10px; padding:17px; border-radius:40px; text-decoration:none; font-weight:500; font-size:17px; letter-spacing:1px;
+         color:var(--marrom); background:linear-gradient(180deg,#F8EBCB,#E6CB8E 48%,#B08A45); border:0; width:100%; font-family:inherit; cursor:pointer; }
+  .btn.sec { background:transparent; color:var(--ouro); border:1px solid var(--ouro); margin-top:0; }
+  .dica { font-size:14px; line-height:1.5; opacity:.8; margin-top:18px; }
+  .ass { font-size:13px; letter-spacing:2px; color:var(--ouro); margin-top:34px; }
+  .leg { text-align:left; background:rgba(246,238,226,.06); border:1px solid rgba(217,184,119,.35); border-radius:14px; padding:16px; margin-top:16px; }
+  .leg h3 { font-family:"Jost",sans-serif; font-weight:500; font-size:13px; letter-spacing:3px; color:#D9B877; margin:0 0 10px; }
+  .leg p { white-space:pre-line; font-size:15px; line-height:1.55; margin:0 0 12px; }
+  .copiar { font-family:"Jost",sans-serif; font-weight:500; font-size:14px; letter-spacing:1px; color:#1D130B; border:0; border-radius:30px; padding:10px 18px;
+            background:linear-gradient(180deg,#F8EBCB,#E6CB8E 48%,#B08A45); cursor:pointer; }
+  h4 { font-family:"Playfair Display",serif; font-weight:600; font-size:22px; color:#E6CB8E; margin:30px 0 0; }
+  hr { border:0; height:1px; background:rgba(217,184,119,.3); margin:46px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <p class="fino">campanha de</p>
+  <h1>Black Friday</h1>
+  <div class="fio"></div>
+  <p class="dica" style="margin-top:0">Dois vídeos para stories ou Reels, na ordem de postagem.</p>
+
+  <!-- 1º: suspense -->
+  <p class="etapa">1º · POSTAR PRIMEIRO</p>
+  <h2 class="sub">Suspense</h2>
+  <video src="suspense.mp4" poster="capa-suspense.jpg" controls playsinline preload="metadata"></video>
+  <a class="btn" href="suspense.mp4" download="suspense.mp4">Baixar vídeo (com som)</a>
+  <a class="btn sec" href="suspense-sem-som.mp4" download="suspense-sem-som.mp4">Baixar sem som</a>
+  <button class="btn sec share" data-arq="suspense.mp4" hidden>Compartilhar / salvar no celular</button>
+  <p class="dica">14 segundos · vertical 1080×1920 · sem revelar o nome nem o que é.</p>
+  <h4>Legenda</h4>
+  <p class="dica" style="margin-top:6px">Escolha uma opção e toque em copiar.</p>
+  <div class="leg"><h3>OPÇÃO 1</h3><p id="s1">Algo grande está chegando. ✨
+
+Passei os últimos dias preparando uma coisa especial para a Black Friday, e ainda não posso contar o que é.
+Só posso adiantar duas coisas: é um convite, e serão apenas 5.
+
+Em breve eu conto tudo por aqui. 🤍
+
+Dra. Ana Beatriz Barros | Cirurgiã-Dentista | CRO-CE 18526
+#blackfriday #juazeirodonorte #cuidadocomvoce</p><button class="copiar" data-alvo="s1">Copiar legenda</button></div>
+  <div class="leg"><h3>OPÇÃO 2</h3><p id="s2">Não é para todo mundo. ✨
+
+Tenho 5 convites guardados para a Black Friday.
+Ative as notificações e fique de olho nos stories: em breve eu conto tudo. 🤍
+
+Dra. Ana Beatriz Barros | Cirurgiã-Dentista | CRO-CE 18526
+#blackfriday #juazeirodonorte #embreve</p><button class="copiar" data-alvo="s2">Copiar legenda</button></div>
+
+  <hr>
+
+  <!-- 2º: revelação -->
+  <p class="etapa">2º · A REVELAÇÃO</p>
+  <h2 class="sub">Botox Club</h2>
+  <video src="revelacao.mp4" poster="capa-revelacao.jpg" controls playsinline preload="metadata"></video>
+  <a class="btn" href="revelacao.mp4" download="botox-club.mp4">Baixar vídeo (com música)</a>
+  <a class="btn sec" href="revelacao-sem-som.mp4" download="botox-club-sem-som.mp4">Baixar sem som</a>
+  <button class="btn sec share" data-arq="revelacao.mp4" hidden>Compartilhar / salvar no celular</button>
+  <p class="dica">16 segundos · vertical 1080×1920 · com trilha e efeitos.<br>Para usar uma música do Instagram, baixe a versão <b>sem som</b>.</p>
+  <h4>Legenda</h4>
+  <p class="dica" style="margin-top:6px">Escolha uma opção e toque em copiar.</p>
+  <div class="leg"><h3>OPÇÃO 1</h3><p id="r1">Chegou o Botox Club. ✨
+
+Um convite para cuidar de você ao longo de todo o próximo ano: 3 aplicações previstas em 12 meses, em testa, glabela e pés de galinha.
+Na Black Friday, preparei condições especiais para quem entrar agora, e são apenas 5 vagas.
+
+Antes de qualquer aplicação, eu faço a sua avaliação, porque cada rosto pede um cuidado diferente.
+
+Quer saber as condições? Me chame no Direct ou no WhatsApp (88) 92001-8454. 🤍
+
+Aplicações sujeitas à avaliação e indicação clínica.
+Dra. Ana Beatriz Barros | Cirurgiã-Dentista | CRO-CE 18526
+#botox #toxinabotulinica #blackfriday #juazeirodonorte #botoxclub</p><button class="copiar" data-alvo="r1">Copiar legenda</button></div>
+  <div class="leg"><h3>OPÇÃO 2</h3><p id="r2">Eu prometi que contaria. 🤍
+
+O convite da Black Friday é o Botox Club: um programa com 3 aplicações previstas ao longo de 12 meses, para você planejar seus cuidados com calma.
+São só 5 vagas, e as condições especiais eu explico no privado.
+
+Me chame no Direct ou no WhatsApp (88) 92001-8454. ✨
+
+Aplicações sujeitas à avaliação e indicação clínica.
+Dra. Ana Beatriz Barros | Cirurgiã-Dentista | CRO-CE 18526
+#botox #toxinabotulinica #blackfriday #juazeirodonorte #botoxclub</p><button class="copiar" data-alvo="r2">Copiar legenda</button></div>
+
+  <p class="dica">No iPhone, se o download não começar, toque em <b>Compartilhar / salvar</b> e escolha “Salvar vídeo”.</p>
+  <p class="ass">@biabarros.oficial</p>
+</main>
+<script>
+  if (navigator.canShare) document.querySelectorAll('.share').forEach(b => {
+    b.hidden = false;
+    b.addEventListener('click', async () => {
+      const arq = b.dataset.arq; b.textContent = 'Preparando…';
+      try {
+        const blob = await (await fetch(arq)).blob();
+        const f = new File([blob], arq, { type: 'video/mp4' });
+        if (navigator.canShare({ files: [f] })) await navigator.share({ files: [f] });
+        else location.href = arq;
+      } catch (err) {}
+      b.textContent = 'Compartilhar / salvar no celular';
+    });
+  });
+  document.querySelectorAll('.copiar').forEach(bt => bt.addEventListener('click', async () => {
+    const t = document.getElementById(bt.dataset.alvo).innerText;
+    try { await navigator.clipboard.writeText(t); }
+    catch (e) { const a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); }
+    bt.textContent = 'Copiada ✓'; setTimeout(() => bt.textContent = 'Copiar legenda', 2000);
+  }));
+</script>
+</body>
+</html>
